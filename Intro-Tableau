@@ -144,3 +144,39 @@ advanced options -> center - 0 , makes sure anything abive 0 is greeninsh in col
 5. Order date -> pages card : then choose the 'quater' on order date 
 
 
+
+CREATING DASHBOARDS ->
+Creatiing KPI (kep performabnce index)
+1. Sales -> text
+2. double click profit
+3. double click quantity
+switching axes -> 1. sales 2. quantity 3. sum
+
+text -> helps in editing font size and colour
+
+Map :
+state to the center of the sheet
+sales -> colour
+
+Map sheet -> 
+state to the center of the sheet
+sales -> colour
+country srop into sheet if you only see united states
+
+country -> show filter -> in filter options -> single value(dropdown)
+
+category -> show filter -> single value (dropdown)
+region -> show filter -> single value (dropdown)
+
+Dashboard : 
+the button next to creating new sheet icon -> new dashboard
+
+increase size of the dahsboard -> range -> automatic
+Steps ->
+map -> trend -> segment sales->KPIs -> 
+
+legend snd filters -> to move -> dropdown -> floating (then we can drag it to appropriate postion)
+
+initially change in filter only applies to the map
+to change the filters applying to all the worksheets ->
+filters -> more options -> apply to worksheets -> all using this data sources
