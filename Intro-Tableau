@@ -76,4 +76,18 @@ We can see that there are few missing values in the Items , Profit columns
 Reason : Due to error the transaction of the headphones were not displaying in the transaction column
 (missing headphones -> name , profit 0 -> null)
 
+Right click on items -> click alias -> change null value to headphones
+Profit -> Create -> calculated field : we can add name , we can add formula as in (excel)
+Name: Profit_corrected
+Formula : IFNULL([PROFIT],0)
 
+Casaectrode  dataset -> sheet2 -> address has city,state and country 
+it is better to have seperate for city, state and country to access it
+
+Address -> Transform -> Custom Split ->
+seperator -> ',' 
+Split off -> all
+then click ok
+
+after the transform -> select the order ID -> click on split1,split2,split3 ..
+then we can rename the splits to their appropriate values
