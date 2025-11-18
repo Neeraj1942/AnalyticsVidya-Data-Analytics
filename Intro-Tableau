@@ -21,3 +21,59 @@ Tableau Server -> enterprise level solution
 Tableau Reader -> to read the work done by others
 Tableau Online -> enables people to view tablue projects online
 
+Charts are created on -> 'Sheets' in tableau
+Workspace -> the central space on the sheet is called workspace 
+
+On the sheets we have 2 tabs ->
+Data Tab : 
+Analytics Tab : 
+
+Table feild : shows different sections present in our data
+Table feilds are divided int o2 sections :
+Dimensions tab -> cannot be aggregated
+Measures tab ->  contains measuarble data , which can be aggregated functions like -> sum,min,standrd deviation ..etc
+
+Analytics tab -> Tools to extract analytical information, like grand total, forecast , trendlines
+
+To create charts we can drag and drop rows charts from data tabs to the rows/columns
+We can also double click on the feilds to create charts
+
+Page card-> helps to break it into series of pages, for better analysis explains how a specific fields helps the rest of the data
+Filter card -> used to filter the results based on dimensions or results
+Marks card -> visual analysis in tableau : encode the data with colour size,shape.text and other properties
+
+Top of the application :
+<- undo
+-> redo 
+
+Acsending,descending 
+flipping from rows -> columns
+
+charts are interactive in nature we can just place the cursor and see more information
+
+DATA PREPARATION ->
+converting eraw data into analytics ready data
+
+1. Identifying Headers
+2. Pivoting Data
+3. Replacing missing values 
+4. Splitting columns
+
+By default tablueau thinks that -> first wors -> column headers
+Once we export the excel file -> open the HeadersandUnPivot ->
+the columns  names are F1,F2 ,F3 ...so on 
+
+We click the (Use data Interpreter) -> which cleans the names and assigns the 4rth row as the columns names automatically
+
+we have the months in the columns which is tough to interpret, it is easy if we have them in the rows instead
+
+Select all the month columns -> right click -> select Pivot
+Rename the columns t appropritate names
+
+
+HOW TO CLEAN MISSING VALUES IN TABLUEAU :
+We can see that there are few missing values in the Items , Profit columns 
+Reason : Due to error the transaction of the headphones were not displaying in the transaction column
+(missing headphones -> name , profit 0 -> null)
+
+
