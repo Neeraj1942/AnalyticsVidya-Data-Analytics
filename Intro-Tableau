@@ -1,0 +1,23 @@
+Bar Chart - 
+colours - Profitabel 
+length - number of sales
+
+Donut chart - explain in comparitive with which products has the most sales
+
+Import tootls used for data visualization ->
+1. Tableau
+2. Micrsoft Power BI
+3. Qlikview
+
+Tablue ->
+can be used for excel,text files,SQl,Oracle,Googlesheets
+
+Tools for developers ->
+Tablueau Desktop -> develepment tool, various tools like dashboards.
+Tablueau Public -> cannot save the work, we have to publish it in Tableau Server.
+
+Tools for sharing ->
+Tableau Server -> enterprise level solution
+Tableau Reader -> to read the work done by others
+Tableau Online -> enables people to view tablue projects online
+
