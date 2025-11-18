@@ -91,3 +91,56 @@ then click ok
 
 after the transform -> select the order ID -> click on split1,split2,split3 ..
 then we can rename the splits to their appropriate values
+
+Tasks ->
+1. Understanding which segment has higher sales ->
+Creating a bar chart to understand this ->
+1. Sales click  
+2. Segment click 
+To diplay the number -> drag the sales to the labels 
+
+2. Indentifying the category with the least sales ->
+1. sales -> from measures
+2. Category from dimensions
+To diplay the number -> drag the sales to the labels 
+
+3. Understanding the percentage contribution of each category to sales 
+We need a pie chart for this, of each category to sales
+we duplicate the task 2 sheet 
+go to -> show me -> select pie chart
+drag and drop , sales,category to the labels , to get the labels
+
+to make the chart big -> view on the top of the tablueau column -> select entire view
+we still see the numbers ->
+
+go to -> sales(lables) -> right click -> quick table calculations -> percentage of total
+
+4. Understand the trend in overall sales for CasaElektro
+1. order date -> columns
+2. sales -> rows 
+we see the year wise sales but we need to look at month wise sales ->
+Right click on the order date -> select month
+
+go to -> analytics tab -> drag trend line to the chart
+linear option to create a straight line 
+( line chart
+
+5. Evaluating the sales and profitability of each sub category
+1. Sales
+2. Sub category 
+vertical chart -> switching the axes ; also sorting them by clicking on the sort icon
+sales on to labels to display the sales numbers
+to display the colour of the profits -> drag and sales to colour
+(check the legend for the better understanding)
+
+to edit the colours -> click on the legend -> edit colours -> red green diverging from the palette
+advanced options -> center - 0 , makes sure anything abive 0 is greeninsh in colour
+
+6. Find quater-wise patterns in realtion between sales and profit for each sub-category
+1. sales -> columns , sales -> rows
+2. sub-category -> detail
+3. sub-category -> labels 
+4. analytics -> trendline -> labels
+5. Order date -> pages card : then choose the 'quater' on order date 
+
+
