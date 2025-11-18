@@ -137,7 +137,7 @@ to edit the colours -> click on the legend -> edit colours -> red green divergin
 advanced options -> center - 0 , makes sure anything abive 0 is greeninsh in colour
 
 6. Find quater-wise patterns in realtion between sales and profit for each sub-category
-1. sales -> columns , sales -> rows
+1. sales -> columns , profit -> rows
 2. sub-category -> detail
 3. sub-category -> labels 
 4. analytics -> trendline -> labels
