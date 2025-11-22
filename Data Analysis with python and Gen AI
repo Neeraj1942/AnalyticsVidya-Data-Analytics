@@ -1,1 +1,39 @@
 Hi
+Base to code : google colab
+types of EDA :
+1. Traditional EDA ->
+a. Univariate analysis
+b. Bivariate and multivariate analysis
+
+2. Feature Engineering
+
+3. Automated Profiling : using 'Sweetviz'
+
+4. PanmdasAI + OpenAI natural language
+
+1. Traditional EDA -> matplotlib, seaborn, plotly(interactive charts)
+matplotlib : import matplotlib.pyplot as plt
+seaborn : import seaborn as sns
+plotly(interactive charts) : import ploty.express as px
+
+using bivariate analysis -> 
+df.info() -> retruns the data types of all the objects
+df.describe() -> describes the statistics of the data
+df.isnull().sum() -> tells how many missing values
+
+df['x'] = pd.to_datetime(df['x']) -> this coverts the objects-type -> 'datetime' format.
+
+to convert the datetime to x/60 -> mins to hours.
+df['xhours'] =df['x_datetime'].dt.hour ( .dt.hour  → 14 ) (from the standard format like xx:xx:xx)
+df['xpickup day of the week'] = df['x_datetime'].dt.dayofweek (.dt.dayofweek → 5 : 0-6 is monday - sunday)
+
+swetviz only one chart but is able to do the whole data analysis with just few lines of code ->
+ex : report =sweetviz.analyze(df)
+report.show_html('sweetviz_report.html')
+
+4. EDA using pandas AI ->
+
+
+
+
+
