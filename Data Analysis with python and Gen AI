@@ -27,6 +27,7 @@ to convert the datetime to x/60 -> mins to hours.
 df['xhours'] =df['x_datetime'].dt.hour ( .dt.hour  → 14 ) (from the standard format like xx:xx:xx)
 df['xpickup day of the week'] = df['x_datetime'].dt.dayofweek (.dt.dayofweek → 5 : 0-6 is monday - sunday)
 
+3.Automated profiling using 'sweetviz' ->
 swetviz only one chart but is able to do the whole data analysis with just few lines of code ->
 ex : report =sweetviz.analyze(df)
 report.show_html('sweetviz_report.html')
