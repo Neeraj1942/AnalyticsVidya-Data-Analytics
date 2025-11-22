@@ -52,10 +52,16 @@ our project we will have 3 crews ->
 
 the code is in plain english language in .yaml format -> but the main.py is python and has the main parts of the code working.
 Then we dockerize the steps to code, and inlcuding the console as well.
-dockerizing :means packaging an application along with all its dependencies into a Docker container so it can run reliably in any environment.
 
+Dockerizing :means packaging an application along with all its dependencies into a Docker container so it can run reliably in any environment.
+( the example model build is reAct agents)
 
+PPT Link: Data-analyst-agent-datahour-modified.pptx
+Github Link: https://github.com/srimugunthan/data-analyst-crewAI
 
+Quiz :
+Guardrails : prevents the AI agents from generating undesirable or unsafe outputs.
+Questcrew : generates insightful questions about the data
 
 
 
