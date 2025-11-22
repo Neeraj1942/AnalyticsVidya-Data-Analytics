@@ -20,9 +20,38 @@ Different design patterns for Agent Workflows :
 4. Router Pattern: Directs tasks or queries to specialized AI modules based on context.
 5. Hierarchical: Organizes AI reasoning or tasks in layers, from general to specific.
 
-Reflection :
-2 llm -> Coder agent(llm) and critic agent(llm) , critic tells right or wrong where error and the coder agent keep rectifying that.
-ReAct
-Sequential Pattern
-Router Pattern
-Hierarchical
+Reflection : 2 llm`s -> 1. Coder agent(llm) and 2. critic agent(llm) , critic tells right or wrong where error and the coder agent keep rectifying that.
+(evaluator-> optimizer pattern)
+
+In -> llm call -> tools (many) -> out : basically uses many to tools to answer the api.
+(tool use pattern)
+
+ReAct : Reasoning + Acting 
+input -> Reasioning -> act and observe -> Environment(E) -> second reasoing-> act and observe ..........->environment -> out  
+
+Router Pattern : there is dispatcher agent which decides where to go
+Input -> entry agent(agent) -> query -> dispatcher(where to go) -> the particular type agent(based on the query) -> end -> reply agent(gpt) -> output
+
+Sequential Pattern : Sequential + Branching pattern -> Sequential : it follows a strict linear order, Branching : depends on condition(query asked)
+ex : input -> search(gpt) -> curator -> winter(query asked) -> critique -> designer -> editor(gpt) -> output (publisher)
+
+Hierarchical : when a task we break down in to multiple tasks then we have a supervisor that coordinates these tasks -> passed on to the multiple agents
+user input -> supervisor(assigns to multiple tasks) -> Agent1 ( or agent 2) ...... -> supervisor -> output (user)
+
+chat - chain pattern : basically like a company and each tasks(coder,developer,engineer,ceo) have their own agents. ( lot of back and forth transfer like the company)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
