@@ -43,6 +43,16 @@ chat - chain pattern : basically like a company and each tasks(coder,developer,e
 We have readymade agents with specialized roles -> 
 LangGrapgh, LlamaIndex, crewai, Microsoft AutoGen
 
+CrewAI -> no code, build on LangChain
+
+our project we will have 3 crews ->
+1. Junior Data analyst crew : Get Data statistics
+2. Quest Crew : Generate questions based on metadata
+3. Exploratory Data Analysis(EDA) crew : Generate plots for each question
+
+the code is in plain english language in .yaml format -> but the main.py is python and has the main parts of the code working.
+Then we dockerize the steps to code, and inlcuding the console as well.
+dockerizing :means packaging an application along with all its dependencies into a Docker container so it can run reliably in any environment.
 
 
 
