@@ -40,8 +40,8 @@ user input -> supervisor(assigns to multiple tasks) -> Agent1 ( or agent 2) ....
 
 chat - chain pattern : basically like a company and each tasks(coder,developer,engineer,ceo) have their own agents. ( lot of back and forth transfer like the company)
 
-
-
+We have readymade agents with specialized roles -> 
+LangGrapgh, LlamaIndex, crewai, Microsoft AutoGen
 
 
 
