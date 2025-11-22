@@ -1,0 +1,28 @@
+Hi
+Types of AI ->
+1. Traditional ML: Uses data and statistical algorithms to make predictions or decisions without explicit programming.
+2. GenAI (Generative AI): Creates new content like text, images, or music based on learned patterns from data.
+3. Traditional AI: Mimics human problem-solving and decision-making using predefined rules and logic.
+4. Robotic AI: Integrates AI with physical robots to perform tasks autonomously in the real world.
+5. Reasoning AI: Simulates human-like logical thinking to infer, plan, and solve complex problems.
+
+There is chatgpt link for data analysis, which can create analytics on the given dataset.
+Diff between coding and AI agent : in agent we have llm , to which we can give a very high level statement and the llm will code itself
+
+Creating a ai agent with a no code tool called 'N8N'. Also 'Gumloop'
+'N8N': https://n8n.io
+'Gumloop' : https://www.gumloop.com
+
+Different design patterns for Agent Workflows :
+1. Reflection: AI inspects its own reasoning or outputs to improve decisions.
+2. ReAct: Combines reasoning and action in AI for step-by-step problem solving.
+3. Sequential Pattern: AI analyzes or predicts data/events that follow a specific order.
+4. Router Pattern: Directs tasks or queries to specialized AI modules based on context.
+5. Hierarchical: Organizes AI reasoning or tasks in layers, from general to specific.
+
+Reflection :
+2 llm -> Coder agent(llm) and critic agent(llm) , critic tells right or wrong where error and the coder agent keep rectifying that.
+ReAct
+Sequential Pattern
+Router Pattern
+Hierarchical
