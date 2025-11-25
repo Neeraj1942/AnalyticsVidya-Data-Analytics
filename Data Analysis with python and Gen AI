@@ -33,6 +33,19 @@ ex : report =sweetviz.analyze(df)
 report.show_html('sweetviz_report.html')
 
 4. EDA using pandas AI ->
+!pip install --no deps pandas openai pandas numpy
+!pip install python-dotenv -> environment for the openai api key
+!pi[ install astor ->backend package key
+!pip show pandasai -> to show with enironment is working right now
+
+padasai -> smartdataframe is used
+
+import openai
+from getpass import getpass -> to upload the api key but no one can see the key
+
+smart_df = SmartDataframe(df,config = {"llm":llm}) -> to save the llm as part of the config dictionary and the dartaframe
+
+
 
 
 
