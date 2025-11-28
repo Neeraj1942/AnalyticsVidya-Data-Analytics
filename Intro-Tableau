@@ -180,3 +180,9 @@ legend snd filters -> to move -> dropdown -> floating (then we can drag it to ap
 initially change in filter only applies to the map
 to change the filters applying to all the worksheets ->
 filters -> more options -> apply to worksheets -> all using this data sources
+
+
+New new new ->
+To enter the formula to use for checking null values or any other custom calculations we do - SUM(IIF(ISNULL([YourColumn]), 1, 0))
+(*** we enter these details in -> right click under the last in data pane -> create calculated field -> name and enter the formula ***)
+
